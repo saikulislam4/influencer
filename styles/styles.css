@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common styles here */
+
+.primary_description {
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+
+.primary_btn {
+    all: unset;
+    border-radius: 41px;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+/* nav styles start */
+
+nav {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav_title {
+    color: #3a3a3a;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul li {
+    list-style: none;
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+/* banner styles start */
+.banner_container {
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.banner_title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner_item_image img{
+    height: 500px;
+}
+.banner_item_image{
+    background-image: url(/images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* sponsor section styles start */
+.sponsor_container{
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 1px solid rgba(0, 0, 0, 0.505);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.505);
+    padding: 40px 50px;
+    border-top-style: outset;
+}
